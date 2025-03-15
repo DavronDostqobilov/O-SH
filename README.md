@@ -11,10 +11,10 @@ bash git clone https://github.com/DavronDostqobilov/O-SH.git
 **Create a virtual environment and activate it:**
 
 ```
-python -m venv venv
+python -m venv env
 ```
 ```
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
+source env\Scripts\activate
 ```
 
 **Install dependencies:**
