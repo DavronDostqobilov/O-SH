@@ -41,5 +41,3 @@ def person_detail(request, pk):
     elif request.method == 'DELETE':  # DELETE (o'chirish)
         person.delete()
         return Response({'message': 'Person deleted successfully'}, status=status.HTTP_204_NO_CONTENT)
-
-# def 
